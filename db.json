@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": "33d6",
+      "title": "Update",
+      "body": "123123"
+    },
+    {
+      "id": "bfa5",
+      "title": "123123",
+      "body": "123123"
+    },
+    {
+      "id": "1839",
+      "title": "123123",
+      "body": "123123"
+    },
+    {
+      "id": "24a9",
+      "title": "New post",
+      "body": "New post"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
