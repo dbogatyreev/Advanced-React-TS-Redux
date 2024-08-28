@@ -24,19 +24,19 @@ const PostContainer = () => {
         }
 
         await createPost({ title, body: title } as IPost);
-        refetch(); // Обновляем данные после создания поста
+        refetch(); 
     };
 
     const handleRemove = async (post: IPost) => {
-        await deletePost(post.id); // Передаем ID поста
-        refetch(); // Обновляем данные после удаления поста
+        await deletePost(post.id); 
+        refetch();
     };
 
     const handleUpdate = async (post: IPost) => {
         const updatedTitle = prompt('Введите новый заголовок поста:', post.title);
         if (updatedTitle !== null) {
-            await updatePost({ ...post, title: updatedTitle }); // Передаем обновленный пост
-            refetch(); // Обновляем данные после обновления поста
+            await updatePost({ ...post, title: updatedTitle });
+            refetch();
         }
     };
 
