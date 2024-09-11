@@ -37,7 +37,7 @@ This project is an interactive user post management app that interacts with a si
 
 ---
 
-## 🚀 Features
+## 🚀 Features:
 
 - 📜 **View Posts List:** Automatically load and display a list of posts fetched from the `db.json` file.
 - ➕ **Add New Post:** Easily create new posts with unique titles through a user-friendly form.
