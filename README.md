@@ -46,7 +46,7 @@ This project is an interactive user post management app that interacts with a si
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Technologies:
 
 - **React**: A powerful library for building fast and responsive user interfaces.
 - **Redux Toolkit**: A convenient tool for efficient global state management within applications.
