@@ -3,7 +3,7 @@ import { IUser } from "../../models/IUser";
 import { fetchUsers } from "./ActionCreators";
 
 
-// add interface 
+// add interface d
 interface UserState {
     users: IUser[];
     isLoading: boolean;
